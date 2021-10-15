@@ -2,6 +2,7 @@
   "name": "instrukcije",
   "version": "0.0.0",
   "scripts": {
+    "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
@@ -9,5 +10,10 @@
   "devDependencies": {
     "prettier": "2.4.1",
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7"
   }
 }
